@@ -9,19 +9,14 @@ try: # Import Module
     import urllib3  # HTTP client untuk Python
     import json     # Agar body requests dapat dilihat dengan cara di print
     import bs4      # Untuk variasi output
-    import re
-    import colorama
 except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", 'requests'])
     subprocess.check_call([sys.executable, "-m", "pip", "install", 'urllib3'])
     subprocess.check_call([sys.executable, "-m", "pip", "install", 'bs4'])
-    subprocess.check_call([sys.executable, "-m", "pip", "install", 'colorama'])
 finally:
     import requests # Post, Get, & Put URL API
     import urllib3  # HTTP client untuk Python
     from bs4 import BeautifulSoup as bs
-    from colorama import Fore,init,Back
-    from requests import post,get
 
 from urllib3.exceptions import *
 from bs4 import BeautifulSoup as bs
