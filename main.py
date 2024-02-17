@@ -346,5 +346,5 @@ try:
     main()
 except KeyboardInterrupt:
     autoketik(f"""{putih}[{merah}!{putih}]{merah} KeyboardInterrupt {putih}[{merah!{putih}]
-{putih}[{hijau}•{putih}]{hijau} Tools Exited Safely""")
+[{hijau}•{putih}]{hijau} Tools Exited Safely""")
     sys.exit()
